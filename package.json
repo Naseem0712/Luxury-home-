@@ -1,0 +1,25 @@
+{
+  "name": "luxury-home-marketplace",
+  "version": "1.0.0",
+  "description": "A premium platform for luxury home furnishings and architectural elements",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm start",
+    "setup": "npm install && cd frontend && npm install"
+  },
+  "keywords": [
+    "luxury",
+    "home",
+    "marketplace",
+    "artisans",
+    "custom"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+} 
