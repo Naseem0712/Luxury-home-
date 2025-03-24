@@ -1,23 +1,14 @@
-import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center">
+    <div className="flex min-h-screen flex-col items-center">
       <div className="w-full bg-gray-900 text-white py-24 px-6 relative overflow-hidden">
-        <div className="absolute inset-0 z-0 opacity-50">
-          <Image 
-            src="/images/hero-bg.jpg" 
-            alt="Luxury Interior" 
-            fill
-            style={{ objectFit: 'cover' }}
-            priority
-          />
-        </div>
+        <div className="absolute inset-0 z-0 opacity-50 bg-gradient-to-b from-gray-800 to-gray-900"></div>
         <div className="max-w-6xl mx-auto relative z-10 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">Exceptional Craftsmanship for Exceptional Homes</h1>
           <p className="text-xl md:text-2xl mb-10 max-w-3xl mx-auto">
-            Discover handcrafted luxury architectural elements created by the world's finest artisans
+            Discover handcrafted luxury architectural elements created by the worlds finest artisans
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
@@ -67,7 +58,7 @@ export default function Home() {
             {[
               {
                 title: 'Exceptional Artisans',
-                description: 'We partner with the world's most skilled craftspeople who create truly unique pieces.'
+                description: 'We partner with the worlds most skilled craftspeople who create truly unique pieces.'
               },
               {
                 title: 'Custom Design',
@@ -86,6 +77,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </main>
+    </div>
   )
 } 
